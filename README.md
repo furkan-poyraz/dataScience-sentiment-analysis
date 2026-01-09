@@ -2,16 +2,6 @@
 
 Türkçe metinler üzerinde duygu analizi yapmak için çeşitli Transformer tabanlı modellerin performansını karşılaştıran kapsamlı bir makine öğrenmesi projesi.
 
-## 📋 İçindekiler
-- [Proje Hakkında](#proje-hakkında)
-- [Kullanılan Modeller](#kullanılan-modeller)
-- [Veri Seti](#veri-seti)
-- [Kurulum](#kurulum)
-- [Kullanım](#kullanım)
-- [Metodoloji](#metodoloji)
-- [Sonuçlar](#sonuçlar)
-- [Teknolojiler](#teknolojiler)
-
 ## 🎯 Proje Hakkında
 
 Bu proje, Türkçe metinlerdeki duyguları (pozitif, negatif, nötr) tespit etmek için üç farklı Transformer modelinin performansını analiz eder. Çalışma, farklı veri boyutlarında (5.000 - 20.000 örnek) model performanslarını karşılaştırarak en uygun model ve veri setini belirlemeyi amaçlar.
