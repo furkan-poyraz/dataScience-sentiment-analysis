@@ -55,19 +55,7 @@ Dengeli örnekleme ile her sınıftan eşit sayıda veri:
 
 ## 🚀 Kullanım
 
-### 1. Veri Yükleme
-```python
-from datasets import load_dataset
-
-dataset = load_dataset("winvoker/turkish-sentiment-analysis-dataset")
-df = dataset['train'].to_pandas()
-```
-
-### 2. Veri Temizleme
-```python
-# Otomatik temizleme fonksiyonu
-temiz_metin = veri_temizleme(metin)
-```
+### 1. Veri Temizleme
 
 Temizleme adımları:
 - Küçük harfe çevirme
@@ -76,7 +64,7 @@ Temizleme adımları:
 - Türkçe stopwords temizliği
 - Stemming (kök bulma)
 
-### 3. Model Eğitimi
+### 2. Model Eğitimi
 ```python
 # Örnek: XLM-RoBERTa ile eğitim
 model = AutoModelForSequenceClassification.from_pretrained(
